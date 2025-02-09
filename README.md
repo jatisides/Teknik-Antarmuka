@@ -25,16 +25,33 @@ Program Antarmuka dengan VS Code dan bahasa C++
 11) Tambahkan path MinGW-w64 bin folder ke Windows PATH environment variable dengan menggunakan langkah berikut:
     *  Pada windows search bar ketik "Edit environment"
     *  Pada variabel User, pilih variable Path dan pilih Edit
-       ![alt text]
+       ![alt text](https://github.com/jatisides/jatisides/blob/main/Env_User.png)
     *  Pilih New dan tambahkan folder destinasi MinGW-w64 yang sudah Anda cata pada proses instalasi ke dalam list. Path defaultnya adalah C:\msys64\ucrt64\bin
     *  Pilih OK kemudian OK kembali
+12) Cek apakah MinGW-w64 tools sudah terinstall dengan benar dan tersedia, buka Command Prompt baru dan ketikkan:
+    * gcc --version
+    * g++ --version
+    * gdb --version
+13) Masih pada Command Prompt, buat sebuah file C++ baru dengan mengetikkan:
+    * mkdir projects
+    * cd projects
+    * mkdir Teknik Antarmuka
+    * cd Teknik Antarmuka
+    * code .
+14) Buat file baru dengan nama "helloworld.cpp" dengan ikon "New File pada File Explorer atau File > New File command
+    ![alt text](https://github.com/jatisides/jatisides/blob/main/new-file.png)
+15) Tes Program, ketikkan baris kode berikut:
+    #include <iostream>
+    int main()
+      {
+          std::cout << "Hello World" << std::endl;
+      }
+
+
+17) 
    
     
-In your User variables, select the Path variable and then select Edit.
-Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you selected the default installation steps, the path is: C:\msys64\ucrt64\bin.
-Select OK, and then select OK again in the Environment Variables window to update the PATH environment variable. You have to reopen any console windows for the updated PATH environment variable to be available.
 
-11)
 ### Dependencies
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
