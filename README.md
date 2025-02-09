@@ -1,13 +1,16 @@
-# Project Title
+# Judul Praktikum
 
 Interfacing Laboratory (Teknik Antarmuka)
 
-## Description
+## Deskripsi
 
-Interfacing Program with VS Code
-* Download VS Code here (https://code.visualstudio.com/download)
+Program Antarmuka dengan VS Code dan bahasa C++
+* Download VS Code disini (https://code.visualstudio.com/download)
+* Download MinGW-x64 disini (https://github.com/msys2/msys2-installer/releases/download/2024-12-08/msys2-x86_64-20241208.exe)
 
-## Getting Started
+## Langkah-Langkah
+1) Download, instal, dan jalankan Visual Studio Code.
+2) 
 
 ### Dependencies
 
