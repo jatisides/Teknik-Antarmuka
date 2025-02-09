@@ -10,7 +10,7 @@ Program Antarmuka dengan VS Code dan bahasa C++
 
 ## Langkah-Langkah
 1) Download, instal, dan jalankan Visual Studio Code.
-2) 
+2) ![alt text](https://github.com/jatisides/jatisides/blob/main/cpp-extension.png)
 
 ### Dependencies
 
