@@ -41,66 +41,22 @@ Program Antarmuka dengan VS Code dan bahasa C++
 14) Buat file baru dengan nama "helloworld.cpp" dengan ikon "New File pada File Explorer atau File > New File command
     ![alt text](https://github.com/jatisides/jatisides/blob/main/new-file.png)
 15) Tes Program, ketikkan baris kode berikut:
+    ```
     #include <iostream>
     int main()
       {
           std::cout << "Hello World" << std::endl;
       }
-
-
-17) 
+    ```
+17) Simpan kode program dengan "Ctrl + S"
+18) Klik tombol play di pojok kanan atas
+    ![alt text](https://github.com/jatisides/jatisides/blob/main/run-play-button.png)
+19) Pilih "C/C++: g++.exe build and debug active file" dari list compiler yang terdeteksi pada sistem.
+    ![alt text](https://github.com/jatisides/jatisides/blob/main/select-gcc-compiler.png)
+20) Apabila berhasil makan akan muncul tulisan "Hello World" pada terminal.
    
-    
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
