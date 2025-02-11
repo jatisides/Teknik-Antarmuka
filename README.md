@@ -20,7 +20,7 @@ Program Antarmuka dengan VS Code dan bahasa C++
 7) Pada installer, pilih folder instalasi yang diinginkkan dan catat (disarankan menggunakan direktori yang direkomendasikan)
 8) Setelah selesai instalasi, pastikan kotak Run MSYS2 now tercentang dan pilih "Finish". Terminal MSYS2 otomatis akan terbuka.
 9) Pada terminal ketikkan kode berikut "pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain"
-10) Tekan Enter kemudian ketik "Y"
+10) Tekan "ENTER" di keyboard kemudian ketik "Y"
    ![alt text](https://github.com/jatisides/Teknik-Antarmuka/blob/main/cpp-install-msys2-toolchain.png)
 11) Tambahkan path MinGW-w64 bin folder ke Windows PATH environment variable dengan menggunakan langkah berikut:
     *  Pada windows search bar ketik "Edit environment"
