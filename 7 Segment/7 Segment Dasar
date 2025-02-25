@@ -62,20 +62,18 @@ void loop()
 {     
     while(1) 
 
-    {   display1(); 
+    {   
+        clearDisplay();
+        display1(); 
         delay(2000); 
         clearDisplay();
         display2();
-  
         delay(2000); 
         clearDisplay();
         display3(); 
-
         delay(2000);
         clearDisplay();
         display4(); 
-        delay(2000);
-
-        delay(2000);      
+        delay(2000);     
     }
 }
