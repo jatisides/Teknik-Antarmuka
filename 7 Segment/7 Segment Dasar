@@ -1,11 +1,11 @@
-int a=2; 
-int b=3; 
-int c=4; 
-int d=5; 
-int e=6; 
-int f=7; 
-int g=8; 
-int dp=9; 
+int a=6; 
+int b=7; 
+int c=8; 
+int d=9; 
+int e=10; 
+int f=11; 
+int g=12; 
+int dp=13; 
 
 void clearDisplay(void) 
 { 
